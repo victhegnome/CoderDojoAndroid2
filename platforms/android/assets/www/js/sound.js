@@ -59,9 +59,7 @@ function dsoundTick(timestamp) {
           //but this way it doesn't kill the prog.
       }
 
-  if (progress < 30000) {
     window.requestAnimationFrame(dsoundTick);
-  }
 }
 
 try{
